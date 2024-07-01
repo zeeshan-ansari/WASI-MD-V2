@@ -25,7 +25,7 @@ global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "923272952948@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "ZEESHAN/ANSARI";
 global.github = process.env.GITHUB || "https://github.com/Itxxwasi/WASI-MD-V2";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
@@ -66,7 +66,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "",
   packname: process.env.PACK_NAME || "ZEESHAN-ANSARI",
   botname: process.env.BOT_NAME || "ZEESHAN-ANSARI",
-  ownername: process.env.OWNER_NAME || "ZEESHAN-ANSARI",
+  ownername: process.env.OWNER_NAME || "KING",
   errorChat: process.env.ERROR_CHAT || "923272952948",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -79,7 +79,7 @@ module.exports = {
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   AUTOREACTION: process.env.AUTOREACTION || process.env.AUTOREACTION || "false",
-  LANG: (process.env.THEME || "WASI").toUpperCase(),
+  LANG: (process.env.THEME || "ZEESHAN").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
